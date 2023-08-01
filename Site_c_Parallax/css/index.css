@@ -1,0 +1,104 @@
+
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte-padrao: Arial, serif;
+    --fonte-marcada:'Sriracha', cursive;
+}
+
+
+body{
+
+    font-size: 16px;
+}
+header{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 20em;
+    width: 100%;
+   background-color: black;
+    color: white;
+
+}
+header h1{
+    font-size: min(150px,3em);
+    padding-top: 1.5em;
+    text-align: center;
+}
+header p {
+    
+    padding-top: 1em;
+    text-align: center;
+}
+    
+#p1 {
+    background-color: white;
+    padding:3em;
+}
+#p1 p{
+    font-family: var(--fonte-marcada);
+    font-size:min(100px ,3.5vw);
+    padding: 7px;
+    padding-left: 30px;
+}
+#p2{
+
+    background-image: url('../imagens/background001.jpg');
+    background-attachment: fixed;
+    background-position: top center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:3em;
+}
+#p2 p{
+    font-family: var(--fonte-marcada);
+    font-size:min(100px ,3.5vw);
+    padding: 7px;
+    color:rgb(211, 224, 190);
+    background-color: rgba(0, 0, 0, 0.322);
+    width: max-content;
+}
+#p3{
+    padding:2em;
+}
+#p3 p{
+    font-family: var(--fonte-marcada);
+    font-size:min(100px ,3.5vw);
+    padding: 7px;
+    padding-left: 30px;
+}
+#p3 p.br{
+    
+    padding-top: 1em;
+}
+
+#p4{
+    background-image: url('../imagens/background002.jpg');
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:3em;
+}
+#p4 p{
+    font-family: var(--fonte-marcada);
+    background-color: rgba(0, 0, 0, 0.26);
+    color:white;
+    font-size:min(100px ,3.5vw);
+    padding: 7px;
+    padding-left: 30px;
+    width: max-content;
+}
+#p5{
+    padding:3em;
+}
+#p5 p{
+    font-family: var(--fonte-marcada);
+    font-size:min(100px ,3.5vw);
+    padding: 7px;
+    padding-left: 30px;
+}
